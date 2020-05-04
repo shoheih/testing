@@ -6,6 +6,7 @@ import App from 'components/App';
 ReactDOM.render(
   <Root>
     <App />
+    <p>test</p>
   </Root>,
   document.querySelector('#root')
 );
