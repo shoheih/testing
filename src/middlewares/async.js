@@ -1,4 +1,5 @@
 export default ({ dispatch }) => next => action => {
+  console.log(action);
   // Check to see if the action
   // has a promise an its 'payload' property
   // If it does, then wait for it to resolve
